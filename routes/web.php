@@ -15,9 +15,7 @@ use App\Http\Controllers\Frontend\SinglePostController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [\App\Http\Controllers\Frontend\PostListController::class, 'index']);
 Route::get('/home', [HomeController::class, 'index']) -> name('home');
 Route::get('/about', [HomeController::class, 'about']) -> name('about');
 

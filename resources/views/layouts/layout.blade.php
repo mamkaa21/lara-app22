@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -9,8 +8,8 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="/assets/backend/img/favicon.png" rel="icon">
-  <link href="../../../../../../Users/Student/Downloads/Presento/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="{{asset('/backend/img/favicon.png')}}" rel="icon">
+  <link href="{{asset('/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -18,14 +17,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="{{asset('public/vendor/bootstrap/css/bootstrap.min.css"')}}" rel="stylesheet">
-  <link href="../../../../../../Users/Student/Downloads/Presento/assets/vendor/bootstrap-icons/bootstrap-icons.css" >
-  <link href="../../../../../../Users/Student/Downloads/Presento/assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="../../../../../../Users/Student/Downloads/Presento/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="../../../../../../Users/Student/Downloads/Presento/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="{{asset('/vendor/bootstrap/css/bootstrap.min.css"')}}" rel="stylesheet">
+  <link href="{{asset('/vendor/bootstrap-icons/bootstrap-icons.css')}}" >
+  <link href="{{asset('/vendor/aos/aos.css')}}" rel="stylesheet">
+  <link href="{{asset('/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
+  <link href="{{asset('/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="../../../../../../Users/Student/Downloads/Presento/assets/css/main.css" rel="stylesheet">
+  <link href="{{asset('/css/main.css')}}" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Presento
@@ -35,9 +34,7 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
-
 <body class="blog-page">
-
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
@@ -82,9 +79,7 @@
 
     </div>
   </header>
-
   <main class="main">
-
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container">
@@ -97,160 +92,19 @@
         <h1>Blog</h1>
       </div>
     </div><!-- End Page Title -->
-
     <div class="container">
       <div class="row">
-
         <div class="col-lg-8">
-
           <!-- Blog Posts Section -->
           <section id="blog-posts" class="blog-posts section">
-
             <div class="container">
-
               <div class="row gy-4">
-
-                <div class="col-12">
-                  <article>
-
-                    <div class="post-img">
-                      <img src="../../../../../../Users/Student/Downloads/Presento/assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
-                    </div>
-
-                    <h2 class="title">
-                      <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</a>
-                    </h2>
-
-                    <div class="meta-top">
-                      <ul>
-                        <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html">John Doe</a></li>
-                        <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                        <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html">12 Comments</a></li>
-                      </ul>
-                    </div>
-
-                    <div class="content">
-                      <p>
-                        Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
-                        Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.
-                      </p>
-
-                      <div class="read-more">
-                        <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html">Read More</a>
-                      </div>
-                    </div>
-
-                  </article>
-                </div><!-- End post list item -->
-
-                <div class="col-12">
-
-                  <article>
-
-                    <div class="post-img">
-                      <img src="../../../../../../Users/Student/Downloads/Presento/assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
-                    </div>
-
-                    <h2 class="title">
-                      <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
-                    </h2>
-
-                    <div class="meta-top">
-                      <ul>
-                        <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html">John Doe</a></li>
-                        <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                        <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html">12 Comments</a></li>
-                      </ul>
-                    </div>
-
-                    <div class="content">
-                      <p>
-                        Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et. Quo libero rerum voluptatem pariatur nam.
-                        Ad impedit qui officiis est in non aliquid veniam laborum. Id ipsum qui aut. Sit aliquam et quia molestias laboriosam. Tempora nam odit omnis eum corrupti qui aliquid excepturi molestiae. Facilis et sint quos sed voluptas. Maxime sed tempore enim omnis non alias odio quos distinctio.
-                      </p>
-                      <div class="read-more">
-                        <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html">Read More</a>
-                      </div>
-                    </div>
-
-                  </article>
-
-                </div><!-- End post list item -->
-
-                <div class="col-12">
-
-                  <article>
-
-                    <div class="post-img">
-                      <img src="../../../../../../Users/Student/Downloads/Presento/assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
-                    </div>
-
-                    <h2 class="title">
-                      <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.</a>
-                    </h2>
-
-                    <div class="meta-top">
-                      <ul>
-                        <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html">John Doe</a></li>
-                        <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                        <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html">12 Comments</a></li>
-                      </ul>
-                    </div>
-
-                    <div class="content">
-                      <p>
-                        Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem dolorem labore omnis et. Eum temporibus fugiat voluptate enim tenetur sunt omnis.
-                        Doloremque est saepe laborum aut. Ipsa cupiditate ex harum at recusandae nesciunt. Ut dolores velit.
-                      </p>
-                      <div class="read-more">
-                        <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html">Read More</a>
-                      </div>
-                    </div>
-
-                  </article>
-
-                </div><!-- End post list item -->
-
-                <div class="col-12">
-
-                  <article>
-
-                    <div class="post-img">
-                      <img src="../../../../../../Users/Student/Downloads/Presento/assets/img/blog/blog-4.jpg" alt="" class="img-fluid">
-                    </div>
-
-                    <h2 class="title">
-                      <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html">Non rem rerum nam cum quo minus. Dolor distinctio deleniti explicabo eius exercitationem.</a>
-                    </h2>
-
-                    <div class="meta-top">
-                      <ul>
-                        <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html">John Doe</a></li>
-                        <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                        <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html">12 Comments</a></li>
-                      </ul>
-                    </div>
-
-                    <div class="content">
-                      <p>
-                        Aspernatur rerum perferendis et sint. Voluptates cupiditate voluptas atque quae. Rem veritatis rerum enim et autem. Saepe atque cum eligendi eaque iste omnis a qui.
-                        Quia sed sunt. Ea asperiores expedita et et delectus voluptates rerum. Id saepe ut itaque quod qui voluptas nobis porro rerum. Quam quia nesciunt qui aut est non omnis. Inventore occaecati et quaerat magni itaque nam voluptas. Voluptatem ducimus sint id earum ut nesciunt sed corrupti nemo.
-                      </p>
-                      <div class="read-more">
-                        <a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html">Read More</a>
-                      </div>
-                    </div>
-
-                  </article>
-
-                </div><!-- End post list item -->
-
+                @yield('content')
               </div><!-- End blog posts list -->
 
             </div>
 
           </section><!-- /Blog Posts Section -->
-
           <!-- Blog Pagination Section -->
           <section id="blog-pagination" class="blog-pagination section">
 
@@ -270,13 +124,9 @@
             </div>
 
           </section><!-- /Blog Pagination Section -->
-
         </div>
-
         <div class="col-lg-4 sidebar">
-
           <div class="widgets-container">
-
             <!-- Search Widget -->
             <div class="search-widget widget-item">
 
@@ -309,7 +159,7 @@
               <h3 class="widget-title">Recent Posts</h3>
 
               <div class="post-item">
-                <img src="../../../../../../Users/Student/Downloads/Presento/assets/img/blog/blog-recent-1.jpg" alt="" class="flex-shrink-0">
+                <img src="/img/blog/blog-recent-1.jpg" alt="" class="flex-shrink-0">
                 <div>
                   <h4><a href="../../../../../../Users/Student/Downloads/Presento/blog-details.html">Nihil blanditiis at in nihil autem</a></h4>
                   <time datetime="2020-01-01">Jan 1, 2020</time>
@@ -349,26 +199,6 @@
               </div><!-- End recent post item-->
 
             </div><!--/Recent Posts Widget -->
-
-            <!-- Tags Widget -->
-            <div class="tags-widget widget-item">
-
-              <h3 class="widget-title">Tags</h3>
-              <ul>
-                <li><a href="#">App</a></li>
-                <li><a href="#">IT</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Mac</a></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">Office</a></li>
-                <li><a href="#">Creative</a></li>
-                <li><a href="#">Studio</a></li>
-                <li><a href="#">Smart</a></li>
-                <li><a href="#">Tips</a></li>
-                <li><a href="#">Marketing</a></li>
-              </ul>
-
-            </div><!--/Tags Widget -->
 
           </div>
 
@@ -454,17 +284,17 @@
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src={{asset('public/vendor/bootstrap/js/bootstrap.bundle.min.js"')}}></script>
-  <script src={{asset('public/vendor/php-email-form/validate.js"')}}></script>
-  <script src={{asset('public/vendor/aos/aos.js"')}}></script>
-  <script src={{asset('public/vendor/glightbox/js/glightbox.min.js"')}}></script>
-  <script src={{asset('public/vendor/swiper/swiper-bundle.min.js"')}}></script>
-  <script src={{asset('public/vendor/purecounter/purecounter_vanilla.js"')}}></script>
-  <script src={{asset('public/vendor/imagesloaded/imagesloaded.pkgd.min.js"')}}></script>
-  <script src={{asset('public/vendor/isotope-layout/isotope.pkgd.min.js"')}}></script>
+  <script src={{asset('/vendor/bootstrap/js/bootstrap.bundle.min.js"')}}></script>
+  <script src={{asset('/vendor/php-email-form/validate.js"')}}></script>
+  <script src={{asset('/vendor/aos/aos.js"')}}></script>
+  <script src={{asset('/vendor/glightbox/js/glightbox.min.js"')}}></script>
+  <script src={{asset('/vendor/swiper/swiper-bundle.min.js"')}}></script>
+  <script src={{asset('/vendor/purecounter/purecounter_vanilla.js"')}}></script>
+  <script src={{asset('/imagesloaded/imagesloaded.pkgd.min.js"')}}></script>
+  <script src={{asset('/vendor/isotope-layout/isotope.pkgd.min.js"')}}></script>
 
   <!-- Main JS File -->
-  <script src={{asset('public/vendor/js/main.js"')}}></script>
+  <script src={{asset('/vendor/js/main.js"')}}></script>
 
 </body>
 
