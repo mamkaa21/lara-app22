@@ -11,8 +11,18 @@ class PostListController extends Controller
 {
     public function index()
     {
-        $posts = Posts::simplePaginate(5);
-        $categories = Category::all();
-        return view('frontend.posts', compact('posts', 'categories'));
+//        $posts = Posts::simplePaginate(5);
+////        $categories = Category::all();
+        $posts = Posts::with('tags')->addSelect(
+            [
+                'category_name' => Category::select('title')
+                    ->whereColumn('category_id', 'categories.id'),
+                'category_slug' => Category::select('slug')
+                    ->whereColumn('category_id', 'categories.id'),
+            'tags' => Category::select('slug')
+                   ->whereColumn('category_id', 'categories.id'),
+            ]
+        )->latest()->paginate(15);
+        return view('frontend.posts', compact('posts'));
     }
 }
